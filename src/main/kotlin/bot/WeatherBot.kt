@@ -17,7 +17,7 @@ import kotlinx.coroutines.launch
 
 
 private const val BOT_ANSWER_TIMEOUT = 30
-private const val BOT_TOKEN = "5625792321:AAEAWJcnhpvpCtb8N79RlLnT8O1Wx09AGAk"
+private const val BOT_TOKEN = ""
 class WeatherBot (private val weatherRepository: WeatherRepository) {
     private lateinit var country: String
     private var _chatId: ChatId? = null
